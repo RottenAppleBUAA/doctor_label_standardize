@@ -171,6 +171,10 @@ If you only have images and want to get the masks using our pre-trained model, y
 2. Select the model you want to use, and start inference by ```sh run_eval_teacher.sh``` or ```sh run_eval_student.sh```
 3. After step2, we will get the file ```coco_instances_results.json``` in the folder ```output/inference```, we can get the visualization by ```python ./tools/visual_for_infer_output_json.py```
 
+For the local box-focused inference script used in this workspace, see [BOX_DEDUP_PIPELINE.md](BOX_DEDUP_PIPELINE.md).
+
+For the local doctor-annotation standardization pipeline used in this workspace, see [ANNOTATION_STANDARDIZATION_PIPELINE_ZH.md](ANNOTATION_STANDARDIZATION_PIPELINE_ZH.md).
+
 
 ## <a name="citing"></a>Citing Guided Distillation
 
