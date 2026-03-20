@@ -1,4 +1,4 @@
-# Doctor Label Standardize
+# doctor_label_standardize
 
 这个仓库当前主要用于医生标注标准化。
 
@@ -21,7 +21,7 @@
 如果要按当前仓库默认配置创建 `gd_env` 环境，可以直接运行：
 
 ```bash
-cd /home/tianruiliu/codespace/data_process/SemiT-SAM
+cd doctor_label_standardize
 bash install_gd_env.sh
 ```
 
@@ -67,7 +67,7 @@ some_case/
 在项目根目录运行：
 
 ```bash
-cd /home/tianruiliu/codespace/data_process/SemiT-SAM
+cd doctor_label_standardize
 
 ./run_per_doctor_annotation_standardization_pipeline.sh \
   --data-root ../some_case \
